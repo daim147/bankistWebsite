@@ -177,7 +177,7 @@ const loadImg = (entries, observer) => {
 };
 const imgObserver = new IntersectionObserver(loadImg, {
   root: null,
-  threshold: 0.4,
+  threshold: 0.2,
 });
 
 imgTarget.forEach(img => {
